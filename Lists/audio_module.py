@@ -16,7 +16,7 @@ engine.setProperty('voice',voices[1].id)
 #get the rate of the 
 
 rate=engine.getProperty('rate')
-engine.setProperty('rate',125)
+engine.setProperty('rate',125)     
 pdf = open('C:/Users/dhuli/OneDrive/Desktop/python_tutorial.pdf','rb')
 pdfobj=PyPDF2.PdfFileReader(pdf)
 k=pdfobj.getNumPages()
