@@ -1,0 +1,3 @@
+Write will replace the content
+This append to line2
+write the function
