@@ -16,7 +16,12 @@ def func1(func):
         func()
         print("this is srikanth")
     return ex
+
+# def this_is_srikanth():
+#     print("who is this")
+# this_is_srikanth = func1(this_is_srikanth)
+# this_is_srikanth()
 @func1
 def this_is_srikanth():
-    print("who is this")
+    print("srikanth")
 this_is_srikanth()
