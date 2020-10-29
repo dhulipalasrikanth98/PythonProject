@@ -1,0 +1,12 @@
+import os
+# print(os.getcwd())
+# os.chdir("C://")
+# print(os.getcwd())
+# # os.mkdir("C://srikanth/sri")
+# # os.makedirs("C://Sri/Srikanth")
+# print(os.listdir("C://"))
+# os.chdir("F://PythonProgramming/Lists")
+# print(os.getcwd())
+# os.rename("examplefile.txt","renamed-file.txt")
+# print(os.environ.get("Path"))
+print(os.get_exec_path())
