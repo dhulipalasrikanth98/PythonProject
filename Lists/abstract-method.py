@@ -4,7 +4,6 @@ class superior(metaclass=ABCMeta):
     @abstractmethod
     def printmethod():
         return 0
-
 class A(superior):
     # def __init__(self,name,salary,role):
     #     self.name=name
