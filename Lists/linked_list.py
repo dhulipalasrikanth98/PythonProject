@@ -6,7 +6,7 @@ class Node:
 class SLinked:
     def __init__(self):
         self.headVal=None
-    # def createLinkedList(self,data):
+    # def createLinkedList(self,datas):
     #     if self.headVal is None:
     #         self.headVal=Node(data,None)
             # return;
