@@ -1,1 +1,1 @@
-print(s.json())
+print(a.email)

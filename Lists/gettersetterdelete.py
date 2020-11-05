@@ -4,7 +4,7 @@ class A:
         self.lname=lname
     @property
     def email(self):
-        return f"'{self.fname}'.'{self.lname}@google.com"
+        return f"{self.fname}.{self.lname}@google.com"
     @email.setter
     def email(self,string):
         names=string.split('@')[0]
@@ -14,6 +14,7 @@ class A:
     
 a=A("srikanth","venkatesa")
 # print(a.printvalues())
-# print(a.email)
+print(a.email)
+print(a.fname)
 a.email="this.that@google.com"
 
